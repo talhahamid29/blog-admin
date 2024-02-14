@@ -18,7 +18,7 @@ export const authOption = {
           if (!credentials?.email || !credentials?.password) {
             return null;
           }
-          let user = await connection.query(`SELECT * FROM registration WHERE email = '${credentials.email}'`);
+          let user = await connection.query(`SELECT * FROM admin WHERE email = '${credentials.email}'`);
           user = user[0][0];
 
           if (!user) {
