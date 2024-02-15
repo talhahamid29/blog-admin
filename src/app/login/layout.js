@@ -3,7 +3,7 @@ import "../globals.css";
 
 export const metadata = {
   title: "Login Page",
-  description: "Login to access the invoice app",
+  description: "Login to access the admin app",
 };
 
 export default function RootLayout({ children }) {
